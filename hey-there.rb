@@ -1,11 +1,15 @@
 
 class Hey
   def there(message = nil)
-    puts message || "Hey there"
+    puts (message || "Hey there").upcase
   end
 
   def upcase_there(message)
     puts message.upcase
+  end
+
+  def another
+    puts "Yay"
   end
 end
 
